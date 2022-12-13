@@ -1,0 +1,43 @@
+body {
+  background-image: linear-gradient(white, silver, grey, silver, white);
+  background-blend-mode: color-burn;
+  font-family: Futura;
+  text-align: center;
+  margin: 0 auto;
+  height: 59vh;
+  display: grid;
+  grid-template-rows: 60px auto 20px;
+  gap: 3px;
+  transition: all 3s ease-out;
+  text-shadow: 1px 1px 1px pink;
+}
+
+header {
+  background-color: lightblue;
+  font-family: Futura;
+  font-size: 170%;
+  padding: 14px;
+  width: 100%;
+  transform: rotate(360deg);
+  text-shadow: 1px 1px 1px pink;
+}
+
+footer {
+  background-color: lightblue;
+  font-style: italic;
+  font-size: 75%;
+  text-align: center;
+  height: 2.75vh;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  text-shadow: 1px 1px 1px pink;
+}
+
+#initial,
+#interest,
+#times,
+#years {
+  border: 3px solid lightblue;
+}
